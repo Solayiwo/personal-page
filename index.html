@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/images/sulaimon.png" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+    <title>Personal Page</title>
+  </head>
+  <body>
+    <header class="head">
+      <nav class="navbar">
+        <div>
+          <h1>
+            <a href="/" class="logo">Solam</a>
+          </h1>
+        </div>
+
+        <div class="deskscrin">
+          <a href="/" class="navlink">Home</a>
+          <a href="#about" class="navlink">About</a>
+          <a href="#projects" class="navlink">Projects</a>
+          <a href="#gallery" class="navlink">Gallery</a>
+          <a href="#experience" class="navlink">Experience</a>
+          <a href="#contact" class="navlink">Contact</a>
+        </div>
+
+        <div class="deskscrin">
+          <a href="assets/file/sulaimon-olayiwola_cv.pdf" class="button"
+            >Resume</a
+          >
+        </div>
+
+        <div class="mobmenu mobscrin">
+          <button id="showMenu">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <button id="hideMenu" style="display: none">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+
+          <div
+            id="mobileNavMenu"
+            class="navmenu mobscrin"
+            style="display: none"
+          >
+            <a href="/" class="navlink">Home</a>
+            <a href="#about" class="navlink">About</a>
+            <a href="#projects" class="navlink">Projects</a>
+            <a href="#experience" class="navlink">Experience</a>
+            <a href="#contact" class="navlink">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="wrapper">
+        <div class="hero">
+          <div class="hero-content">
+            <h1>I'm Olayiwola Sulaimon</h1>
+            <h4>I am into Fullstack Software Engineering</h4>
+
+            <div class="hero-mobimage mobscrin">
+              <img
+                src="assets/images/solam.jpg"
+                alt="Olayiwola Sulaimon"
+                width="300"
+              />
+            </div>
+
+            <p>
+              As a software development engineer with a solid foundation in
+              building and optimizing web and mobile applications, I am
+              passionate about using technology to improve business operations
+              and digital efficiency. I aim to grow within the IT field by
+              applying my problem-solving, analytical, and technical skills to
+              support software, systems, and digital solutions that enhance
+              performance, reliability, and user experience.
+            </p>
+
+            <div class="button-abt">
+              <a href="#about" class="button">About me</a>
+            </div>
+          </div>
+
+          <div class="hero-image deskscrin">
+            <img
+              src="assets/images/solam.jpg"
+              alt="Olayiwola Sulaimon"
+              width="400"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="wrapper2">
+        <div class="stack">
+          <h2>Tech Stack and Tools</h2>
+
+          <div class="stack-head">
+            <button class="buttonstack" id="btn-frontend">Frontend</button>
+            <button class="buttonstack" id="btn-backend">Backend</button>
+            <button class="buttonstack" id="btn-others">Others</button>
+          </div>
+
+          <div id="stacklist"></div>
+        </div>
+      </section>
+
+      <section class="wrapper" id="about">
+        <div>
+          <h1 class="abt-head">About Me</h1>
+          <div class="hero">
+            <div class="about-image">
+              <img
+                src="assets/images/sulaimon.png"
+                alt="Olayiwola Sulaimon"
+                width="300"
+                class="deskscrin"
+              />
+              <img
+                src="assets/images/sulaimon.png"
+                alt="Olayiwola Sulaimon"
+                width="200"
+                class="mobscrin"
+              />
+            </div>
+
+            <div class="about-content">
+              <h2>Olayiwola Sulaimon</h2>
+              <h4>Software Engineer</h4>
+
+              <p>
+                I am an enthusiastic and dedicated software engineer. I'm
+                passionate about creating seamless user experiences and
+                optimizing performance in web applications with a strong focus
+                on fullstack development, using technologies like HTML, CSS,
+                Tailwind CSS, Bootstrap, JavaScript, React, and Next.js. Let’s
+                connect and collaborate!
+              </p>
+
+              <div class="about-details">
+                <div class="detail-column">
+                  <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                  <ul class="detail-list">
+                    <li>
+                      <strong>B.Sc Software Development (Inview)</strong
+                      ><br />IU Applied Sciences, Germany
+                    </li>
+                    <li>
+                      <strong>ND Electrical Engineering (2018)</strong
+                      ><br />Yaba College of Technology
+                    </li>
+                    <li>
+                      <strong>WAEC (2014)</strong><br />Moshelen High School
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="detail-column">
+                  <h3>
+                    <i class="fa-solid fa-brain"></i> Non-Technical Skills
+                  </h3>
+                  <ul class="detail-list">
+                    <li>Problem-solving & Analytical</li>
+                    <li>Communication & Leadership</li>
+                  </ul>
+
+                  <h3 style="margin-top: 15px">
+                    <i class="fa-solid fa-language"></i> Languages
+                  </h3>
+                  <p>Yoruba (Native), English</p>
+                </div>
+              </div>
+
+              <div class="button-cv">
+                <a
+                  href="assets/file/sulaimon-olayiwola_cv.pdf"
+                  class="button"
+                  download
+                  >Resume</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-container" id="projects">
+        <div class="project-wrapper">
+          <div class="project-title">
+            <h2>Projects</h2>
+          </div>
+
+          <div class="project-grid">
+            <div class="project-card">
+              <div class="card-content">
+                <img
+                  src="assets/images/portfolio_2.png"
+                  alt="Projectx"
+                  class="thumbnail"
+                />
+                <h3>Projectx</h3>
+                <p><strong>Tech:</strong> HTML, CSS, Javascript</p>
+                <p>Project done during my software engineering training</p>
+                <div class="project_link">
+                  <a
+                    href="https://solayiwo.github.io/hta_projectx/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/Solayiwo/hta_projectx/"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-content">
+                <img
+                  src="assets/images/portfolio_project.png"
+                  alt="Portfolio React"
+                  class="thumbnail"
+                />
+                <h3>Portfolio Project (React)</h3>
+                <p><strong>Tech:</strong> React (Vite), CSS, Emailjs</p>
+                <p>Project done during my software engineering training</p>
+                <div class="project_link">
+                  <a
+                    href="https://solam-portfolio-project-vite.vercel.app/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/Solayiwo/portfolioProjectVite"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-content">
+                <img
+                  src="assets/images/portfolio_4.png"
+                  alt="Portfolio Nextjs"
+                  class="thumbnail"
+                />
+                <h3>Portfolio Project (Nextjs)</h3>
+                <p><strong>Tech:</strong> Nextjs, Tailwindcss</p>
+                <p>Project done during my software engineering training</p>
+                <div class="project_link">
+                  <a
+                    href="https://personal-portfolio-olayiwola-sulaimons-projects.vercel.app/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/Solayiwo/personal-portfolio"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-content">
+                <img
+                  src="assets/images/portfolio_3.png"
+                  alt="Learning Platform"
+                  class="thumbnail"
+                />
+                <h3>A Learning Platform</h3>
+                <p><strong>Tech:</strong> HTML, CSS, Javascript</p>
+                <p>Project done during my software engineering training</p>
+                <div class="project_link">
+                  <a
+                    href="https://solayiwo.github.io/learn_software_tech/"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/Solayiwo/learn_software_tech"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-content">
+                <img
+                  src="assets/images/movie.png"
+                  alt="Movielookup"
+                  class="thumbnail"
+                />
+                <h3>Movielookup</h3>
+                <p>
+                  <strong>Tech:</strong> React (Vite), Tailwindcss, OMDB API
+                </p>
+                <p>A simple movie search website</p>
+                <div class="project_link">
+                  <a href="https://movielookup.vercel.app/" target="_blank">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/Solayiwo/movielookup"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-content">
+                <img
+                  src="assets/images/crudapp.png"
+                  alt="CRUD App"
+                  class="thumbnail"
+                />
+                <h3>Simple CRUD Application</h3>
+                <p><strong>Tech:</strong> HTML, CSS, Javascript, Nodejs</p>
+                <p>A simple crud app to perform crud operations</p>
+                <div class="project_link">
+                  <a
+                    href="https://simple-crud-app-navy.vercel.app"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/Solayiwo/simple-crud-app"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrapper" id="gallery">
+        <div>
+          <h1 style="display: flex; justify-content: center">Life & Moments</h1>
+
+          <div class="gallery-container">
+            <div class="gallery-item large">
+              <img
+                src="assets/images/sulaimon.png"
+                alt="Olayiwola with friends"
+              />
+            </div>
+
+            <div class="gallery-item">
+              <img src="assets/images/friend1.jpg" alt="Olayiwola working" />
+            </div>
+
+            <div class="gallery-item">
+              <img src="assets/images/friend2.jpg" alt="With friends" />
+            </div>
+
+            <div class="gallery-item">
+              <img src="assets/images/me.jpg" alt="At Yabatech" />
+            </div>
+
+            <div class="gallery-item">
+              <img src="assets/images/yabatech.jpg" alt="Developer Life" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-container" id="experience">
+        <div>
+          <div class="project-title">
+            <h2>Experiences</h2>
+          </div>
+          <div class="project-grid">
+            <div class="project-card">
+              <div class="xperiencepostion">
+                <h3>Afriment</h3>
+                <hr width="50px" />
+                <p>Frontend Developer (Internship)</p>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="xperiencepostion">
+                <h3>Petrong Software Solutions</h3>
+                <hr width="50px" />
+                <p>Frontend Developer (Internship)</p>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="xperiencepostion">
+                <h3>Brainy Codes Global Technology Limited</h3>
+                <hr width="50px" />
+                <p>Software Engineering Intern (SIWES)</p>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="xperiencepostion">
+                <h3>HoneyTreat Trade Academy</h3>
+                <hr width="50px" />
+                <p>Software Engineering Trainee</p>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="xperiencepostion">
+                <h3>Continent Alarm</h3>
+                <hr width="50px" />
+                <p>CCTV Operator</p>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="xperiencepostion">
+                <h3>Adepower and Proton Energy</h3>
+                <hr width="50px" />
+                <p>Technical Intern</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-wrapper" id="contact">
+        <div class="contact-me">
+          <div class="contact-image deskscrin">
+            <img src="assets/images/contact.svg" alt="contact" width="600" />
+          </div>
+
+          <div class="contact-form">
+            <h2>Get in Touch</h2>
+
+            <form id="contact-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="full_name"
+                  id="full_name"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="user_email"
+                  id="user_email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <select name="subject" id="subject" required>
+                  <option value="" disabled selected>
+                    Select your Interest
+                  </option>
+                  <option value="software development">
+                    Software Development
+                  </option>
+                  <option value="training">Training</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="message"
+                  required
+                ></textarea>
+              </div>
+              <div class="submit-btn">
+                <input type="submit" value="Send Message" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Solam. All Rights Reserved.</p>
+
+      <div class="social-icons">
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=sulaimon.olaitan.olayiwola@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a
+          href="https://github.com/Solayiwo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
