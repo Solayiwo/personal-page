@@ -202,9 +202,8 @@ body {
 .about-details {
   margin: 2rem 0;
   display: flex;
-  flex-direction: column; /* Stacked by default for better flow */
-  gap: 1.5rem;
-  text-align: left;
+  justify-content: space-around;
+  gap: 50px;
 }
 
 /* Category Headers */
@@ -445,7 +444,7 @@ textarea {
 
 .gallery-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-auto-rows: 200px;
   gap: 15px;
   padding: 20px;
